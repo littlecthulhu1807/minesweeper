@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/alex/Desktop/Repo/C++/minesweeper/build/cmake_install.cmake",
+		"/home/alex/Desktop/Repo/C++/minesweeper/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

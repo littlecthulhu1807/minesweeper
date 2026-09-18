@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/financeCalc.dir/link.d CMakeFiles/financeCalc.dir/Cell.cpp.o CMakeFiles/financeCalc.dir/Field.cpp.o CMakeFiles/financeCalc.dir/main.cpp.o -o ../bin/financeCalc

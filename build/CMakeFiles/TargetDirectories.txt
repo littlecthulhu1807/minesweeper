@@ -1,0 +1,5 @@
+/home/alex/Desktop/Repo/C++/minesweeper/build/CMakeFiles/edit_cache.dir
+/home/alex/Desktop/Repo/C++/minesweeper/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Desktop/Repo/C++/minesweeper/build/src/CMakeFiles/Minesweeper.dir
+/home/alex/Desktop/Repo/C++/minesweeper/build/src/CMakeFiles/edit_cache.dir
+/home/alex/Desktop/Repo/C++/minesweeper/build/src/CMakeFiles/rebuild_cache.dir
