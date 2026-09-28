@@ -30,7 +30,7 @@ public:
     InputHandler(Field* fieldRef, bool* ref);
     ~InputHandler();
 
-    void inputCheck();
+    bool inputCheck();
 
     bool linux_kbhit();
     void terminalSetup();

@@ -20,26 +20,7 @@ if(CCACHE_FOUND)
   set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
 endif(CCACHE_FOUND)
 
-# Copy DLLs needed for runtime on Windows
-if(WIN32)
-  if (BUILD_SHARED_LIBS)
-    add_custom_command(TARGET financeCalc POST_BUILD
-      COMMAND ${CMAKE_COMMAND} -E copy_if_different
-          $<TARGET_FILE:sfml-graphics>
-          $<TARGET_FILE:sfml-window>
-          $<TARGET_FILE:sfml-system>
-          $<TARGET_FILE_DIR:financeCalc>)
-  endif()
-endif()
 
-
-
-#Build the cmake files and directories:
-#go into the -build directory
-#run "cmake ../projectname-project"
-
-#build the executeable:
+#from build dir
 #cmake --build .
-
-#to turn off shared Lib building:
-# cmake -DBUILD_SHARED_LIBS=OFF -S . -B out
+#cmake ..

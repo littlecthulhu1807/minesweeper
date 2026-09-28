@@ -29,7 +29,7 @@ int main(){
 
         field.draw();
 
-        SLEEP
+        //SLEEP
     }
     std::cout << "\nQuitting! Goodbye\n";
 

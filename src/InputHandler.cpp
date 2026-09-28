@@ -35,7 +35,7 @@ bool InputHandler::linux_kbhit(){};
 oid InputHandler::terminalSetup(){};
     
 #elif defined(LIN)
-void InputHandler::inputCheck(){
+bool InputHandler::inputCheck(){
     if (linux_kbhit()) {
         read(STDIN_FILENO, &m_ch, 1);
         m_inputAvailable = true;
@@ -45,6 +45,7 @@ void InputHandler::inputCheck(){
         m_inputAvailable = false;
         //std::cin.clear();
     }
+    return m_inputAvailable;
 }
 
 bool InputHandler::linux_kbhit(){
